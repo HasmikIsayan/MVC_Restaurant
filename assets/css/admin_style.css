@@ -1,0 +1,171 @@
+/** admini login eji css@**/
+.login_form{
+    height: 220px;
+    width: 310px;
+    border: 3px #9ad2e8 solid;
+    margin: 150px 530px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #e3f2f8;
+    color: #427487;
+	}
+	
+	
+.login_button{	
+	margin: 15px 170px;
+    background-color: #4a97b4;
+    color: white;
+    width: 65px;
+    border: 2px #427487 solid;
+    border-radius: 5px;
+	}
+.input_login{
+	margin-left: 20px;
+    width: 150px;
+}
+.admin_page{
+    margin: 20px 65px;
+    font-size: 18px;
+}
+
+/**admini admin_menu eji css@ **/
+.container-fluid{
+    background-color:#4a97b4 ;
+	border: 2px #427487 solid;
+	 border-radius: 3px;
+	 width: 1070px;
+	 margin-left:-40px;
+	
+}
+.admin_all_menus{
+    margin: 50px 200px;
+    /* color: rebeccapurple; */
+    width: 800px;
+}
+.add_menu_form{
+	width: 300px;
+    height: 340px;
+    border: 1px #4a97b4 solid;
+    margin: 20px 600px;
+    padding: 35px;
+    background-color: #e1ecf0;
+    border-radius: 15px;
+
+}
+.admin_menu_text{
+	width: 230px;
+    height: 60px;
+	}
+
+.admin_menu_add_button{
+	margin:20px 180px;
+}
+.admin_menu_text_root{
+	margin:10px 60px;
+}	
+
+.navbar-default   .navbar-nav>li>a  {
+    color: #e1ecf0;
+	font-size:16px;
+	margin-left: 2px;
+}
+/*admin_menui editi mas@ */
+
+.edit_menu_form{
+	width: 350px;
+    height: 500px;
+    border: 1px #4a97b4 solid;
+    margin: 60px 450px;
+    padding: 35px;
+    background-color: #e1ecf0;
+    border-radius: 15px;
+
+
+}
+.admin_menu_items{
+	margin-top: -360px;
+	margin-left:40px;
+
+}
+.edit{
+	top: 2%;
+    left: 48%;
+    display: none;    
+	position:absolute;
+}
+.delete{
+
+left:25%;
+}
+ .admin_menu_item{
+	position:relative;
+	cursor:pointer;
+	background-color:#f6f9fa;
+	border-radius:15px;
+	border: 1px #4a97b4 solid;
+	width:400px;
+	height: 450px;
+	margin-left:50px;
+	margin-top: 10px;
+}
+ .admin_menu_item:hover{
+	opacity: 0.8;
+	background-color:#e1ecf0;
+	border-radius:15px;
+	border: 2px #4a97b4 solid;
+}
+ .admin_menu_item:hover .edit {
+	display:block;
+		
+}
+img{
+	padding:20px;
+}
+.admin_menu_item_text{
+	width:350px;
+	margin:5px 30px;
+}
+.admin_menu_item_image{
+	margin:28px 50px;
+}
+.admin_texts{
+	height:20px;
+	width:300px;
+	padding-left:130px;
+	    margin-top: -8px;
+    padding-bottom: 30px;
+}
+.logout{
+	margin-left: 900px;
+    width: 90px;
+    height: 30px;
+    background-color: #e1ecf0;
+    padding: 3px 20px;
+    border: 2px #4a97b4 solid;
+    border-radius: 5px;
+    font-size: 16px;
+
+
+}
+.admin_page_delete {
+	display:none;
+}
+.admin_features_delete{
+	display:none;
+}
+.admin_menu_item_image >img{
+margin-left:30px;
+}
+.admin_menu_add_hidden{
+	visibility:hidden;
+}
+.admin_news{
+	height:300px;
+
+}
+.add_news_image{
+	visibility: hidden;
+}
+.nav>li {
+    padding: 0px 10px;
+}
